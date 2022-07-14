@@ -1,0 +1,664 @@
+*
+{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+body
+{
+background-image: url("https://mcdn.wallpapersafari.com/medium/6/44/N6F2Hl.jpg");
+background-repeat: repeat;
+}
+#loading
+{
+background-color: white;
+position: fixed;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 100;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gif
+{
+width: 20%;
+}  
+.heading
+{
+background-image: url("https://image.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-42133.jpg");
+background-repeat: repeat;
+background-position: top left;
+background-size: 50%;
+height: 70px;
+opacity: 0.9;
+border:1px solid white;
+box-shadow: 1px 2px 10px 2px black;
+}
+.edit
+{
+margin-top: 40px;
+text-align: center;
+color: brown;
+font-family:cursive;
+font-size: 15px;
+text-shadow: 2px 4px white;
+}
+nav
+{
+position: sticky;
+top:0;
+z-index: +1;
+width: 100%;
+height: 40px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+}
+.inayat
+{
+font-size: 11px;
+color: white;
+margin-left: 10px;
+}
+ul
+{
+float: left;
+margin-left: 10px;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 40px;
+font-size: 6px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 6px;
+padding-right: 6px;
+color: white;
+display: block;
+}
+ul li a:hover{
+background-color: white;
+opacity: 0.5;
+color: red;
+}
+ul li ul li
+{
+display: none;
+}
+ul li:hover ul
+{
+position: absolute;
+z-index: 1;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 30px;
+box-shadow: 1px 2px 3px 1px black;
+line-height: 30px;
+margin-left: -20%;
+margin-right: 20%;
+}
+.content
+{
+width: 85%;
+border:1px solid black;
+margin-top: 50px;
+margin-right: 28%;
+margin-left: 4%;
+padding: 20px 5px 20px 5px;
+font-size: small;
+background-color: white;
+margin-bottom: 40px;
+font-size: x-small;
+}
+.pic6
+{
+float: left;
+border:1px solid black;
+height: 100px;
+width: 25%;
+margin-left: 4%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/87/11/70/871170870c8177dfa962995b4e7fb083.jpg");
+}
+.pic1
+{
+float: left;
+border:1px solid black;
+height: 100px;
+width: 25%;
+margin-left: 4%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/96/a7/15/96a715b4090ec5c053ac6a42f54c64a7--wedding-set-stage-wedding.jpg");
+}
+.pic2
+{
+float: left;
+border:1px solid black;
+height: 100px;
+width: 25%;
+margin-left: 4%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/54/67/96/5467968fc7c333cbbb2a39ecbb7f871e--indian-bridal-hairstyles-bridal-jewellery.jpg");
+}
+.getintouch
+{
+border:1px solid black;
+width: 50%;
+height: 30px;
+text-align: center;
+margin-top: 250px;
+margin-left: 25%;
+}
+section a b:hover
+{
+color: white;
+background-color:black;
+font-size: 20px;
+height: 35px;
+border:2px solid white;
+display: block;
+line-height: 35px;
+}
+footer{
+    background-image: url("https://i.pinimg.com/564x/30/82/81/308281cc77455c03fe27bd4855329672.jpg");
+    background-repeat: repeat;
+    background-size: 50%;
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: white 2px solid;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+ }
+footer h2{
+    margin:0;
+    padding:0;
+}      
+/* contact us icon links */
+#cnt{
+    width:140px;
+    border-radius:25px;
+    height:21px;
+    padding:0 0 4px 15px;
+    line-height: 2;
+    margin:0 auto;
+    }
+.cnt_img{
+    height:23px;
+    width:23px;  
+    border-radius: 5px;
+    margin-right:10px;
+    float:left;
+    }
+.cnt_img:hover{
+    height:30px;
+    width:30px;
+    }
+@media only screen and (min-width: 400px)
+{
+.heading
+{
+background-image: url("https://image.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-42133.jpg");
+background-repeat: repeat;
+background-position: top left;
+background-size: 25%;
+height: 70px;
+opacity: 0.9;
+border:1px solid white;
+box-shadow: 1px 2px 10px 2px black;
+}
+nav
+{
+width: 100%;
+height: 40px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+}
+.inayat
+{
+font-size: 13px;
+color: white;
+margin-left: 10px;
+}
+ul
+{
+float: left;
+margin-left: 10px;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 40px;
+font-size: 8px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 6px;
+padding-right: 6px;
+color: white;
+display: block;
+}
+ul li a:hover{
+background-color: white;
+opacity: 0.5;
+color: red;
+}
+ul li ul li
+{
+display: none;
+}
+ul li:hover ul
+{
+position: absolute;
+z-index: 1;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 30px;
+box-shadow: 1px 2px 3px 1px black;
+line-height: 30px;
+margin-left: -20%;
+margin-right: 20%;
+}
+.content
+{
+width: 85%;
+border:1px solid black;
+margin-top: 50px;
+margin-right: 28%;
+margin-left: 4%;
+padding: 20px 10px 20px 20px;
+font-size: small;
+background-color: white;
+margin-bottom: 40px;
+font-size: smaller;
+}
+.pic6
+{
+float: left;
+border:1px solid black;
+height: 150px;
+width: 25%;
+margin-left: 6%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/87/11/70/871170870c8177dfa962995b4e7fb083.jpg");
+}
+.pic1
+{
+float: left;
+border:1px solid black;
+height: 150px;
+width: 25%;
+margin-left: 6%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/96/a7/15/96a715b4090ec5c053ac6a42f54c64a7--wedding-set-stage-wedding.jpg");
+}
+.pic2
+{
+float: left;
+border:1px solid black;
+height: 150px;
+width: 25%;
+margin-left: 6%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/54/67/96/5467968fc7c333cbbb2a39ecbb7f871e--indian-bridal-hairstyles-bridal-jewellery.jpg");
+}
+}
+@media only screen and (min-width: 790px)
+{
+.heading
+{
+background-image: url("https://image.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-42133.jpg");
+background-repeat: repeat;
+background-position: top left;
+background-size: 25%;
+height: 120px;
+opacity: 0.9;
+border:1px solid white;
+box-shadow: 1px 2px 10px 2px black;
+}
+.edit
+{
+margin-top: 70px;
+text-align: center;
+color: brown;
+font-family:cursive;
+font-size: 25px;
+text-shadow: 2px 4px white;
+}
+nav
+{
+width: 100%;
+height: 50px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+}
+.inayat
+{
+font-size: 22px;
+color: white;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 50px;
+font-size: 15px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 16px;
+padding-right: 16px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 40px;
+line-height: 40px;
+font-size: small;
+box-shadow: 1px 2px 3px 1px black;
+}
+.content
+{
+width: 85%;
+border:1px solid black;
+margin-top: 50px;
+margin-right: 28%;
+margin-left: 6%;
+padding: 20px 10px 20px 20px;
+font-size: small;
+background-color: white;
+margin-bottom: 40px;
+font-size: large;
+}
+.pic6
+{
+float: left;
+border:1px solid black;
+height: 220px;
+width: 27%;
+margin-left: 4%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/87/11/70/871170870c8177dfa962995b4e7fb083.jpg");
+}
+   .pic1
+{
+float: left;
+border:1px solid black;
+height: 220px;
+width: 27%;
+margin-left: 6%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/96/a7/15/96a715b4090ec5c053ac6a42f54c64a7--wedding-set-stage-wedding.jpg");
+}
+   .pic2
+{
+float: left;
+border:1px solid black;
+height: 220px;
+width: 27%;
+margin-left: 6%;
+margin-top: 10px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/54/67/96/5467968fc7c333cbbb2a39ecbb7f871e--indian-bridal-hairstyles-bridal-jewellery.jpg");
+}
+.getintouch
+{
+border:1px solid black;
+width: 50%;
+height: 30px;
+text-align: center;
+margin-top: 350px;
+margin-left: 25%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: white 2px solid;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+ }
+footer h2{
+    margin:0;
+    padding:0;
+}      
+/* contact us icon links */
+#cnt{
+    width:140px;
+    border-radius:25px;
+    height:21px;
+    padding:0 0 4px 15px;
+    line-height: 2;
+    margin:0 auto;
+    }
+.cnt_img{
+    height:23px;
+    width:23px;  
+    border-radius: 5px;
+    margin-right:10px;
+    float:left;
+    }
+.cnt_img:hover{
+    height:30px;
+    width:30px;
+    }
+@media only screen and (min-width: 1200px)
+{
+.heading
+{
+background-image: url("https://image.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-42133.jpg");
+background-repeat: repeat;
+background-position: top left;
+background-size: 25%;
+height: 150px;
+opacity: 0.9;
+border:1px solid white;
+box-shadow: 1px 2px 10px 2px black;
+}
+.edit
+{
+margin-top: 83px;
+text-align: center;
+color: brown;
+font-family:cursive;
+font-size: 40px;
+text-shadow: 2px 4px white;
+}
+nav
+{
+width: 100%;
+height: 65px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 65px;
+font-size: 15px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 22px;
+padding-right: 22px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 50px;
+box-shadow: 2px 3px 4px 1px black;
+line-height: 50px;
+margin-left: -20%;
+margin-right: 20%;
+font-size: 15px;
+}
+
+.content
+{
+width: 60%;
+float: right;
+border:1px solid black;
+margin-top: 50px;
+margin-right: 30px;
+padding: 20px 10px 20px 20px;
+font-size: larger;
+background-color: white;
+}
+.pic6
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/87/11/70/871170870c8177dfa962995b4e7fb083.jpg");
+}
+.pic1
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/96/a7/15/96a715b4090ec5c053ac6a42f54c64a7--wedding-set-stage-wedding.jpg");
+}
+   .pic2
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/474x/54/67/96/5467968fc7c333cbbb2a39ecbb7f871e--indian-bridal-hairstyles-bridal-jewellery.jpg");
+}
+.pic5
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/cb/47/4d/cb474db4ecbf53fd3a2f10bd1601e08c.jpg");
+}
+.pic3
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://i.pinimg.com/564x/1e/c3/49/1ec34990071269ae872d6b5370447396.jpg");
+}
+.pic4
+{
+float: left;
+border:1px solid black;
+height: 350px;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("https://images.pexels.com/photos/3699360/pexels-photo-3699360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.getintouch
+{
+float: left;
+border:1px solid black;
+width: 26%;
+margin-left: 30px;
+margin-top: 50px;
+height: 30px;
+text-align: center;
+}
+footer{
+    background-image: url("https://i.pinimg.com/564x/30/82/81/308281cc77455c03fe27bd4855329672.jpg");
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: white 2px solid;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+ }
+footer h2{
+    margin:0;
+    padding:0;
+}  
+/* contact us icon links */
+#cnt{
+    width:140px;
+    border-radius:25px;
+    height:21px;
+    padding:0 0 4px 15px;
+    line-height: 2;
+    margin:0 auto;
+    }
+.cnt_img{
+    height:23px;
+    width:23px;  
+    border-radius: 5px;
+    margin-right:10px;
+    float:left;
+    }
+.cnt_img:hover{
+    height:30px;
+    width:30px;
+    }
+}
+}

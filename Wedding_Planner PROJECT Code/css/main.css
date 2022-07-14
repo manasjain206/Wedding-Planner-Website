@@ -1,0 +1,499 @@
+
+*
+{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#loading
+    {
+    background-color: white;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .gif
+    {
+    width: 20%;
+}
+nav
+{
+width: 100%;
+height: 65px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+position: sticky;
+top:0;
+z-index: +1;
+}
+.inayat
+{
+font-size: 22px;
+color: white;
+}
+ul
+{
+float: left;
+margin-left: 10px;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 65px;
+font-size: 15px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 22px;
+padding-right: 22px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 50px;
+box-shadow: 2px 3px 4px 1px black;
+line-height: 50px;
+margin-left: -20%;
+margin-right: 20%;
+font-size: 15px;
+}
+ul li a:hover
+{
+background-color: white;
+opacity: 0.5;
+color: red;
+}
+ul li ul li
+{
+display: none;
+}
+ul li:hover ul
+{
+position: absolute;
+z-index: 1;
+}
+.container
+{ /* contains the entire division */
+    position: relative;
+    overflow: auto;
+    }
+    #img1
+    {          
+    width: 100%;
+    height: 540px;
+    }
+    main
+{       /* the content for whats on the first image */
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    padding:15px;
+    top:135px;
+    left: 5px;
+    }
+    main p
+    {
+list-style: none;
+text-align: center;
+line-height: 1.2;
+color: white;
+width: 90%;
+font-weight: bold;
+font-size: 20px;
+    }
+    dd
+    {
+    font-size: 20px;
+    text-align: left;
+    }
+    h1{    /* main heading */
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: heading 3s ease-in infinite alternate;
+    margin: 0;
+    background-color: #890620;
+    text-align: center;
+    }
+    @keyframes heading
+    {
+    from {color:black;
+            background-color: #890620;}
+    to {color: black;
+        background-color: #890620;} 
+    }
+     main a
+    {
+    color:white;
+    font-size: 15px;
+    margin-right: 15px;
+    }
+    main a:hover
+    {
+     color:black;
+    }
+    #div2
+    {    /*conatins the founders photos */
+    width:100%;
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/0/74/tsvety-rozovyi-fon.jpg");
+    background-repeat: repeat-x;
+    height:auto;
+    border-top:4px solid white ;
+    }
+    #img2{
+        width:100%;
+        height:500px;  
+    }
+    #div2 p{
+        padding: 20px;
+        margin: 0;
+        font-size: 35px;
+    }
+    #founded{ /*text for the founders */
+        position: absolute;
+        top: 180px;
+        font-style: italic;
+        right: 70px;
+        text-align: center;
+    }
+    #founded h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #founded p{
+        width: 80%;
+        font-size: 25px;
+    }
+    .downimg{      /* photos of the founders */
+        width:210px;
+        float: left;
+        border: 1px solid black;
+        height: 210px;
+        margin-left: 50px;
+        border-radius: 50%;
+    }
+    .downtxt{      /* name of the founders */
+        text-align: center;
+        padding:25px 50px 25px 80px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+     #subscribe
+    {     /*subscribe to newsletter division */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #890620;
+    }
+    #subscribe p
+    {
+   margin-bottom:0;
+   margin-top: 0;
+   font-size: 20px;
+   color: white;
+    }
+    #but
+    {
+        color: black;
+        font-size: x-small;
+    }
+    #subscribe input{
+        background-color:wheat;
+        width: 10%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .footer
+{
+background-image: url("https://i.pinimg.com/564x/30/82/81/308281cc77455c03fe27bd4855329672.jpg");
+background-repeat: repeat;
+background-size: 50%;
+width: 100%;
+font-family: 'Times New Roman', Times, serif;
+border-top: white 2px solid;
+color: white;
+clear: both;
+padding-bottom: 20px;
+}
+    .modal    /* for the subscribe to newsletter pop up */
+    {
+        position: fixed;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border:1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-image: url("https://image.freepik.com/free-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg");
+        background-size: cover;
+        width: 450px;
+        max-width: 80%;
+    }
+    .modal-header
+    {
+        display: flex;
+        padding: 10px 15px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    .close-button
+    {
+        background:none;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: black;
+        border:none;
+        font-size: large;
+    }
+    .modal-body
+    {
+        padding: 10px 15px 19px;
+    }
+    .overlay
+    {
+        left: 0;
+        top:0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        display: none;
+    }
+    #but
+    {
+        font-size: large;
+        color: black;
+        background-color: wheat;
+        cursor: pointer;
+        padding: 5px;
+    }
+     @media only screen and (max-width: 1200px)
+     {
+       
+        #founded{
+            position: absolute;
+            top: 160px;
+            font-style: italic;
+            left:150px;
+            text-align: center;
+        }
+        #founded h2{
+            font-size: 20px;
+        }
+        #founded p{
+            width: 100%;
+            font-size: 15px;
+        }
+        .downimg{
+            width:120px;
+            float: left;
+            border: 3px solid darkred;
+            height: 120px;
+            overflow: auto;
+            margin-left: 60px;
+            border-radius: 50%;
+        }
+        .downtxt{
+            text-align: center;
+            padding:25px 70px 25px 100px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        h1{
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            animation: heading 3s ease-in infinite alternate;
+            margin: 0;
+            text-align: center;
+        }
+}
+    @media only screen and (max-width: 1000px)
+{
+nav
+{
+width: 100%;
+height: 50px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+position: sticky;
+z-index: +1;
+top: 0;
+}
+.inayat
+{
+font-size: 22px;
+color: white;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 50px;
+font-size: 15px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 16px;
+padding-right: 16px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 40px;
+line-height: 40px;
+font-size: small;
+box-shadow: 1px 2px 3px 1px black;
+}
+.footer
+{
+background-image: url("https://i.pinimg.com/564x/30/82/81/308281cc77455c03fe27bd4855329672.jpg");
+background-repeat: repeat;
+padding-bottom: 20px;
+width: 100%;
+border-top: white 2px solid;
+color: white;
+clear: both;
+font-size: small;
+}
+}
+@media only screen and (max-width: 800px)
+{
+nav
+{
+width: 100%;
+height: 40px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+position: sticky;
+top:0;
+z-index: +1;
+}
+.inayat
+{
+font-size: 13px;
+color: white;
+margin-left: 10px;
+}
+ul
+{
+float: left;
+margin-left: 10px;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 40px;
+font-size: 10px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 7px;
+padding-right: 7px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 30px;
+box-shadow: 1px 2px 3px 1px black;
+line-height: 30px;
+margin-left: -20%;
+margin-right: 20%;
+font-size: xx-small;
+}
+}
+@media only screen and (max-width: 580px)
+     {
+        .modal
+        {
+        position: fixed;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border:1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-image: url("https://image.freepik.com/free-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg");
+        background-size: cover;
+        width: 90%;
+        font-size: xx-small;
+        }
+    }
+@media only screen and (max-width: 470px)
+{
+nav
+{
+width: 100%;
+height: 40px;
+background-color: #890620;
+box-shadow: 1px 2px 10px 2px black;
+position: sticky;
+top:0;
+z-index: +1;
+}
+.inayat
+{
+font-size: 11px;
+color: white;
+margin-left: 10px;
+}
+ul li
+{
+list-style: none;
+display: inline-block;
+line-height: 40px;
+font-size: 6px;
+}
+ul li a
+{
+font-family: arial;
+padding-left: 6px;
+padding-right: 6px;
+color: white;
+display: block;
+}
+ul li:hover ul li
+{
+display: block;
+background-color: #890620;
+height: 30px;
+box-shadow: 1px 2px 3px 1px black;
+line-height: 30px;
+margin-left: -20%;
+margin-right: 20%;
+}
+.footer
+{
+margin-top: 50px;
+background-image: url("https://i.pinimg.com/564x/30/82/81/308281cc77455c03fe27bd4855329672.jpg");
+background-repeat: repeat;
+background-size: 50%;
+width: 100%;
+border-top: white 2px solid;
+color: white;
+clear: both;
+font-size: x-small;
+padding-bottom: 20px;
+}
+}
